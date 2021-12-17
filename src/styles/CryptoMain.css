@@ -1,0 +1,121 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 16px 16px;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+  padding: 2% 5%;
+}
+.CryptoWrapper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #333;
+  width: 325px;
+  height: 230px;
+  background: #fafbfc;
+  border-radius: 4.556097507476807px;
+  border: 1px solid #e1e4e8;
+  cursor: pointer;
+}
+.CryptoWrapper:hover {
+  background: #f7f6f6;
+}
+.CryptoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 50px !important;
+}
+
+.CryptoDetails {
+  padding: 7% 0 0 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.CryptoLogo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BTC {
+  background: #ffefd8;
+}
+.ETH {
+  background: #efefef;
+}
+.DOGE {
+  background: #f3dbb6;
+}
+.SOL {
+  background: #dcefff;
+}
+.DOT {
+  background: #ffecec;
+}
+.MATIC {
+  background: #e5f3ff;
+}
+.CryptoName p {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444d56;
+}
+
+.CryptoPrice {
+  padding: 10% 5%;
+}
+.profit p {
+  color: #8bc34a !important;
+}
+.loss p {
+  color: #db4949 !important;
+}
+.CryptoInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 20% 0;
+}
+.CryptoBuySell {
+  display: flex;
+  flex-direction: row;
+}
+.hr-partition {
+  height: 1px;
+  width: 100%;
+  background: #e1e4e8;
+  margin: 7% 0;
+}
+.vr-partition {
+  height: 40px;
+  width: 1.2px;
+  background: #e1e4e8;
+  margin: 0 10px;
+}
+.CryptoName p:nth-child(2),
+.CryptoChange p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6a737d !important;
+}
+.CryptoChange p:nth-child(2) {
+  padding-top: 10px;
+}
+.CryptoBuy p,
+.CryptoSell p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.CryptoBuy p:nth-child(2),
+.CryptoSell p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a737d;
+}
